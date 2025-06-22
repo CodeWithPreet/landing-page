@@ -38,7 +38,7 @@ export default function Mockup() {
         {/* Right Image */}
         <div className="md:w-1/2 flex  justify-center">
           <Image
-            src="/photo.png"
+            src="/Photo.png"
             alt="Phone Mockup"
             width={800}
             height={1000}
