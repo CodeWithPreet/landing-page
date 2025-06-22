@@ -1,20 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { ArrowRight, Check } from "lucide-react";
 import Image from "next/image";
 
 export function HeroSection() {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Email submitted:", email);
-    // Handle form submission here
-  };
-
   return (
     <section className="relative flex flex-col  font-inter lg:flex-row items-center justify-between px-10 lg:px-20 pt-10 pb-20">
       {/* Left Content */}
