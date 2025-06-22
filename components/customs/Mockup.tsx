@@ -41,8 +41,8 @@ export default function Mockup() {
             src="/photo.png"
             alt="Phone Mockup"
             width={800}
-            height={2400}
-            className="object-contain  "
+            height={800}
+            className="object-contain"
           />
         </div>
       </div>

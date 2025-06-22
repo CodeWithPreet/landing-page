@@ -44,7 +44,7 @@ export function HeroSection() {
       <div className="w-full lg:w-1/2 relative mt-10 lg:mt-0">
         <div className="relative w-full h-[400px] lg:h-[600px] clip-diagonal overflow-hidden">
           <Image
-            src="/Hero-Image.png"
+            src="/Hero.png"
             alt="Motorcycles on the road"
             fill
             className="object-cover"
